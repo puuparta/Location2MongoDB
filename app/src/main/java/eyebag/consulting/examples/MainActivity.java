@@ -198,30 +198,7 @@ public class MainActivity extends AppCompatActivity
         @SuppressWarnings("deprecation") /* valittaa http kirjastosta muuten */
         public void postData(String lat, String lon) {
 
-            /*
-                pasis.io, username: burris, pwd: k1pparikalle
-                https://api.mongolab.com/api/1/databases?apiKey=GGo7JekGU6E5AArDW9dG6Z0iMuxzUZOI
-
-                GET /databases
-                Example:
-                https://api.mongolab.com/api/1/databases?apiKey=myAPIKey
-
-
-                POST /databases/{database}/collections/{collection}
-                Content-Type: application/json
-                Body: <JSON data>
-
-                Example (using jQuery):
-
-                $.ajax( { url: "https://api.mongolab.com/api/1/databases/my-db/collections/my-coll?apiKey=myAPIKey",
-                          data: JSON.stringify( { "x" : 1 } ),
-                          type: "POST",
-                          contentType: "application/json" } );
-
-
-                url: "https://api.mongolab.com/api/1/databases/burris/collections/locations?apiKey=GGo7JekGU6E5AArDW9dG6Z0iMuxzUZOI"
-
-            */
+          
 
             /**
              * Http lähetys asynkkina omassa säikeessä ettei blokata Mainia.
